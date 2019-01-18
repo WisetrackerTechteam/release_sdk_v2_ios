@@ -1,4 +1,4 @@
-# UploadTestSample
+# DOT 
 
 [![CI Status](https://img.shields.io/travis/WoncheolHeo/UploadTestSample.svg?style=flat)](https://travis-ci.org/WoncheolHeo/UploadTestSample)
 [![Version](https://img.shields.io/cocoapods/v/UploadTestSample.svg?style=flat)](https://cocoapods.org/pods/UploadTestSample)
@@ -17,12 +17,12 @@ UploadTestSample is available through [CocoaPods](https://cocoapods.org). To ins
 it, simply add the following line to your Podfile:
 
 ```ruby
-pod 'UploadTestSample'
+pod 'DOT'
 ```
 
 ## Author
 
-WoncheolHeo, fornew21c@gmail.com
+Wisetracker, tech@wisetracker.co.kr
 
 ## License
 
