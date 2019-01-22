@@ -26,4 +26,4 @@ Wisetracker, tech@wisetracker.co.kr
 
 ## License
 
-UploadTestSample is available under the MIT license. See the LICENSE file for more info.
+DOT is available under the MIT license. See the LICENSE file for more info.

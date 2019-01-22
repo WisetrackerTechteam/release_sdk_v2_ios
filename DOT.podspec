@@ -1,8 +1,8 @@
 Pod::Spec.new do |s|
 
 
-  s.name         = "wisetracker_SDK_V2"
-  s.version      = "0.1.0"
+  s.name         = "DOT"
+  s.version      = "0.1.2"
   s.summary      = "third party app tracking SDK"
   s.description  = <<-DESC
 	Upload DOT which is third party app tracking SDK Framework

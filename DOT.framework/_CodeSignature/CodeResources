@@ -10,7 +10,7 @@
 		</data>
 		<key>Frameworks/CouchbaseLite.framework/CouchbaseLite</key>
 		<data>
-		z0Ey86kOxTZp8MJvFJmKRTesWx0=
+		oNVuCz+HWLzCzGD8uJt/s1lWLWA=
 		</data>
 		<key>Frameworks/CouchbaseLite.framework/Info.plist</key>
 		<data>
@@ -34,7 +34,7 @@
 		</data>
 		<key>Headers/DOT.h</key>
 		<data>
-		CpRMsxaYuUwZPDPLypGjDBd6ycg=
+		w99d4jW/twNlrPpHgSUUW3n01SI=
 		</data>
 		<key>Headers/KeyConstant.h</key>
 		<data>
@@ -90,11 +90,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			z0Ey86kOxTZp8MJvFJmKRTesWx0=
+			oNVuCz+HWLzCzGD8uJt/s1lWLWA=
 			</data>
 			<key>hash2</key>
 			<data>
-			IX0qw8qxtRWCB+zBboOWs0e4K/GIA6D1yW58towNii4=
+			Iq+RkwBdQqnNxmUXC7Eeq/pnoSd1OzOh0uWw1UJjUgc=
 			</data>
 		</dict>
 		<key>Frameworks/CouchbaseLite.framework/Info.plist</key>
@@ -156,11 +156,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			CpRMsxaYuUwZPDPLypGjDBd6ycg=
+			w99d4jW/twNlrPpHgSUUW3n01SI=
 			</data>
 			<key>hash2</key>
 			<data>
-			+Ub3yBOEi18tnW+i82Gqdst1fIwYYQlPCMhjtrrUWx0=
+			Df62KW22b4IcZl+T2QhN8bZNWH549q8xY2UCrRI/VCc=
 			</data>
 		</dict>
 		<key>Headers/KeyConstant.h</key>

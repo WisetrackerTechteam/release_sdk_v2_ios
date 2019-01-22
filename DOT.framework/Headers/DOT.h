@@ -17,6 +17,7 @@
 #import "User.h"
 #import "Referrer.h"
 #import "KeyConstant.h"
+#import "NSObject+Builder.h"
 
 //! Project version number for DOT.
 FOUNDATION_EXPORT double DOTVersionNumber;
@@ -60,7 +61,7 @@ FOUNDATION_EXPORT const unsigned char DOTVersionString[];
 //webview, wkWebView 사용함수
 + (void)setWebView:(UIWebView *)webView reqeust:(NSURLRequest *)request;
 + (void)setWkWebView:(WKWebView *)wkWebView reqeust:(NSURLRequest *)request;
-+ (void)onStartPageInWebView;
++ (void)onStartWebPage;
 + (void)setPairingData:(UIWebView *)webView;
 + (void)setPairingDataInWkWebView:(WKWebView *)webView;
 + (void)setPairingDataWithCookie:(NSArray *)cookies;
