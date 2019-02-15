@@ -10,7 +10,7 @@
 		</data>
 		<key>Frameworks/CouchbaseLite.framework/CouchbaseLite</key>
 		<data>
-		oNVuCz+HWLzCzGD8uJt/s1lWLWA=
+		YECIXH6JflAWW8GrlWqTx/QjymQ=
 		</data>
 		<key>Frameworks/CouchbaseLite.framework/Info.plist</key>
 		<data>
@@ -54,7 +54,7 @@
 		</data>
 		<key>Headers/Purchase.h</key>
 		<data>
-		J/w5Lk6m2hcYro03/KbWUDBEURI=
+		NbHRh5yslcoC+iGFwX7FOyK0e78=
 		</data>
 		<key>Headers/Referrer.h</key>
 		<data>
@@ -90,11 +90,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			oNVuCz+HWLzCzGD8uJt/s1lWLWA=
+			YECIXH6JflAWW8GrlWqTx/QjymQ=
 			</data>
 			<key>hash2</key>
 			<data>
-			Iq+RkwBdQqnNxmUXC7Eeq/pnoSd1OzOh0uWw1UJjUgc=
+			Q9uVFL2AW/g59Ax8ZxPFrtLo8+YzwfVogQzeUBPER1Y=
 			</data>
 		</dict>
 		<key>Frameworks/CouchbaseLite.framework/Info.plist</key>
@@ -211,11 +211,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			J/w5Lk6m2hcYro03/KbWUDBEURI=
+			NbHRh5yslcoC+iGFwX7FOyK0e78=
 			</data>
 			<key>hash2</key>
 			<data>
-			wAx1llt+2FM3oHN9612Gc+eHfVZr9JrieVbogIEOXd8=
+			9ZnGNljGz+xPAvCLNJWdl3OcXyn+qzpHr2fUPQbX+/I=
 			</data>
 		</dict>
 		<key>Headers/Referrer.h</key>
