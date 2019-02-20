@@ -2,7 +2,7 @@ Pod::Spec.new do |s|
 
 
   s.name         = "DOT"
-  s.version      = "0.1.4"
+  s.version      = "0.1.5"
   s.summary      = "third party app tracking SDK"
   s.description  = <<-DESC
 	Upload DOT which is third party app tracking SDK Framework
@@ -17,15 +17,15 @@ Pod::Spec.new do |s|
   s.ios.vendored_frameworks = 'DOT.framework'
  # s.source_files  = "DOT/**/*.{h,m}"
 
-#  s.subspec 'CouchbaseLite' do |ss|
-#    ss.source_files = 'CouchbaseLite.framework/Headers/*.h'
-#    ss.public_header_files = 'CouchbaseLite.framework/Headers/*.h'
-#    ss.frameworks = 'CFNetwork', 'Security', 'SystemConfiguration', 'JavaScriptCore'
-#    ss.libraries = 'z', 'c++', 'sqlite3'
-#    ss.vendored_frameworks = 'CouchbaseLite.framework'
-#    ss.xcconfig = {
-#      'OTHER_LDFLAGS' => '-ObjC'
-#    }
-#    ss.preserve_paths = 'CouchbaseLite.framework'
-#  end
+  s.subspec 'CouchbaseLite' do |ss|
+    ss.source_files = 'CouchbaseLite.framework/Headers/*.h'
+    ss.public_header_files = 'CouchbaseLite.framework/Headers/*.h'
+    ss.frameworks = 'CFNetwork', 'Security', 'SystemConfiguration', 'JavaScriptCore'
+    ss.libraries = 'z', 'c++', 'sqlite3'
+    ss.vendored_frameworks = 'CouchbaseLite.framework'
+    ss.xcconfig = {
+      'OTHER_LDFLAGS' => '-ObjC'
+    }
+    ss.preserve_paths = 'CouchbaseLite.framework'
+  end
 end
