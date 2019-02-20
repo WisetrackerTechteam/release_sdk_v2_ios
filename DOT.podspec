@@ -2,7 +2,7 @@ Pod::Spec.new do |s|
 
 
   s.name         = "DOT"
-  s.version      = "0.1.17"
+  s.version      = "0.1.18"
   s.summary      = "third party app tracking SDK"
   s.description  = <<-DESC
 	Upload DOT which is third party app tracking SDK Framework
@@ -17,8 +17,8 @@ Pod::Spec.new do |s|
   s.ios.vendored_frameworks = 'DOT.framework'
   s.framework = "CouchbaseLite"
   s.vendored_frameworks = "CouchbaseLite.framework"
-  s.preserve_paths = "CouchbaseLite.framework"
- # s.xcconfig = {'OTHER_LDFLAGS' => '-ObjC'}
+#  s.preserve_paths = "CouchbaseLite.framework"
+  s.xcconfig = {'FRAMEWORK_SEARCH_PATHS' => '/Users/woncheolheo/Documents/develop/dop-ios-sdk'}
 
  # s.source_files  = "DOT/**/*.{h,m}"
 
