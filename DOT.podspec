@@ -2,7 +2,7 @@ Pod::Spec.new do |s|
 
 
   s.name         = "DOT"
-  s.version      = "0.1.6"
+  s.version      = "0.1.7"
   s.summary      = "third party app tracking SDK"
   s.description  = <<-DESC
 	Upload DOT which is third party app tracking SDK Framework
@@ -27,5 +27,5 @@ Pod::Spec.new do |s|
 #      'OTHER_LDFLAGS' => '-ObjC'
 #    }
 #    ss.preserve_paths = 'CouchbaseLite.framework'
-  end
+#  end
 end
