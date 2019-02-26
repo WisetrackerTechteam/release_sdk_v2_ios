@@ -2,7 +2,7 @@ Pod::Spec.new do |s|
 
 
   s.name         = "DOT"
-  s.version      = "0.1.19"
+  s.version      = "0.1.20"
   s.summary      = "third party app tracking SDK"
   s.description  = <<-DESC
 	Upload DOT which is third party app tracking SDK Framework
@@ -18,7 +18,7 @@ Pod::Spec.new do |s|
 #  s.framework = "CouchbaseLite"
 #  s.vendored_frameworks = "CouchbaseLite.framework"
 #  s.preserve_paths = "CouchbaseLite.framework"
-  s.xcconfig = {'FRAMEWORK_SEARCH_PATHS' => $(PROJECT_DIR)}
+#  s.xcconfig = {'FRAMEWORK_SEARCH_PATHS' => $(PROJECT_DIR)}
 
  # s.source_files  = "DOT/**/*.{h,m}"
 
