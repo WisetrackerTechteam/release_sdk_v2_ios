@@ -10,15 +10,11 @@
 		</data>
 		<key>Frameworks/CouchbaseLite.framework/CouchbaseLite</key>
 		<data>
-		q7EfmjCsXN94vhA3qfC6VOq7E8E=
+		TaZgv31s1yQmxO2hWdcQBSbXH8M=
 		</data>
 		<key>Frameworks/CouchbaseLite.framework/Info.plist</key>
 		<data>
 		EwBizwIA6RzArALxLFORmPUE9gA=
-		</data>
-		<key>Frameworks/CouchbaseLite.framework/_CodeSignature/CodeResources</key>
-		<data>
-		pUsRv2XtqwVJC1KKWckS6Nf6uQU=
 		</data>
 		<key>Headers/Click.h</key>
 		<data>
@@ -90,11 +86,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			q7EfmjCsXN94vhA3qfC6VOq7E8E=
+			TaZgv31s1yQmxO2hWdcQBSbXH8M=
 			</data>
 			<key>hash2</key>
 			<data>
-			BQto68W73dk5GuHfN8xsnC0JtArJDxrFK6SiVAsk9rU=
+			Rdmr7Roo53MsY1vbJOV4UwxsBTtL0MpFSIINn0sYSGg=
 			</data>
 		</dict>
 		<key>Frameworks/CouchbaseLite.framework/Info.plist</key>
@@ -106,17 +102,6 @@
 			<key>hash2</key>
 			<data>
 			VHv33DkmZNTycDCfle3khTEgdIuDXVLVGL99Dcj37UY=
-			</data>
-		</dict>
-		<key>Frameworks/CouchbaseLite.framework/_CodeSignature/CodeResources</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			pUsRv2XtqwVJC1KKWckS6Nf6uQU=
-			</data>
-			<key>hash2</key>
-			<data>
-			HJpH0Uj9tizyKhHT9yWdfweiC9FC7BsSPRgw38xBIYY=
 			</data>
 		</dict>
 		<key>Headers/Click.h</key>
