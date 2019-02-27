@@ -2,7 +2,7 @@ Pod::Spec.new do |s|
 
 
   s.name         = "DOT"
-  s.version      = "0.1.25"
+  s.version      = "0.1.26"
   s.summary      = "third party app tracking SDK"
   s.description  = <<-DESC
 	Upload DOT which is third party app tracking SDK Framework
@@ -15,6 +15,7 @@ Pod::Spec.new do |s|
 
   s.source       = { :git => "https://github.com/WisetrackerTechteam/release_sdk_v2_ios.git", :tag => s.version.to_s }
   s.ios.vendored_frameworks = 'DOT.framework'
+  s.dependency "CouchbaseLite"
 #  s.framework = "CouchbaseLite"
 #  s.vendored_frameworks = "CouchbaseLite.framework"
 #  s.preserve_paths = "CouchbaseLite.framework"
