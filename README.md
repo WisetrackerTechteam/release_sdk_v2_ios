@@ -1,4 +1,4 @@
-# release_sdk_v2_ios
+# DOT
 
 [![Version](https://img.shields.io/cocoapods/v/DOT.svg?style=flat)](https://cocoapods.org/pods/DOT)
 [![License](https://img.shields.io/cocoapods/l/DOT.svg?style=flat)](https://cocoapods.org/pods/DOT)
@@ -12,7 +12,7 @@ To run the example project, clone the repo, and run `pod install` from the Examp
 
 ## Installation
 
-UploadTestSample is available through [CocoaPods](https://cocoapods.org). To install
+DOT is available through [CocoaPods](https://cocoapods.org). To install
 it, simply add the following line to your Podfile:
 
 ```ruby
