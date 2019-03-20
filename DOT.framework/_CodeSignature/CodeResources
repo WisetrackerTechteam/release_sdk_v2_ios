@@ -22,7 +22,11 @@
 		</data>
 		<key>Headers/DOT.h</key>
 		<data>
+<<<<<<< HEAD
 		Zgb9Zc326JW++JcVOn5CJsoKswU=
+=======
+		8184NJvA8XWuoYAcefAdchYogAU=
+>>>>>>> e9ed4f97c206fe7d81cd0dd0a4a53569aa5063ce
 		</data>
 		<key>Headers/KeyConstant.h</key>
 		<data>
@@ -111,11 +115,19 @@
 		<dict>
 			<key>hash</key>
 			<data>
+<<<<<<< HEAD
 			Zgb9Zc326JW++JcVOn5CJsoKswU=
 			</data>
 			<key>hash2</key>
 			<data>
 			7/v3cCxYizGEbijI0rWOZeVPIZXx0oV4xzEEh4MIb+A=
+=======
+			8184NJvA8XWuoYAcefAdchYogAU=
+			</data>
+			<key>hash2</key>
+			<data>
+			X4NMB46sMoasKl6tMdDY/5xdM2xoAf7qFeQH9lqkvEQ=
+>>>>>>> e9ed4f97c206fe7d81cd0dd0a4a53569aa5063ce
 			</data>
 		</dict>
 		<key>Headers/KeyConstant.h</key>

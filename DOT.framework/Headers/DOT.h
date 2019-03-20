@@ -69,8 +69,11 @@ FOUNDATION_EXPORT const unsigned char DOTVersionString[];
 
 //XData 사용함수
 + (void)sendXData:(NSDictionary *)xData;
+<<<<<<< HEAD
 + (void)sendXDataWith:(NSString *)xDataStr;
 
+=======
+>>>>>>> e9ed4f97c206fe7d81cd0dd0a4a53569aa5063ce
 @end
 
 
