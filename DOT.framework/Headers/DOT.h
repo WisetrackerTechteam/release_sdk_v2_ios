@@ -69,6 +69,13 @@ FOUNDATION_EXPORT const unsigned char DOTVersionString[];
 + (void)setPairingDataInWkWebView:(WKWebView *)webView;
 + (void)setPairingDataWithCookie:(NSArray *)cookies;
 
+<<<<<<< HEAD
+=======
+//XData 사용함수
++ (void)sendXData:(NSDictionary *)xData;
++ (void)sendXDataWith:(NSString *)xDataStr;
+
+>>>>>>> 38fbd2a1a5d79fa6ff40ecd728bed2621921df74
 @end
 
 
