@@ -2,11 +2,7 @@ Pod::Spec.new do |s|
 
 
   s.name         = "DOT"
-<<<<<<< HEAD
-  s.version      = "0.1.3333"
-=======
-  s.version      = "0.1.322"
->>>>>>> 38fbd2a1a5d79fa6ff40ecd728bed2621921df74
+  s.version      = "0.1.33"
   s.summary      = "third party app tracking SDK"
   s.description  = <<-DESC
 	Upload DOT which is third party app tracking SDK Framework
