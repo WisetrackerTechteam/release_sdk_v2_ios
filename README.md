@@ -6,6 +6,7 @@
 * [DOT](./README.md#DOT)
 	* [SDK 다운로드 및 설치](./README.md#DOT_INSTALL)
 		* [SDK 다운로드](./README.md#DOT_SDK_DOWNLOAD)
+		* [SDK 요구사항](./README.md#DOT_REQUIREMENT)
 		* [SDK 세팅](./README.md#DOT_infoplist)
 	* [기본 분석 적용](./README.md#DOT_BASE)
 		* [SDK init](./README.md#DOT_INIT)
@@ -44,6 +45,10 @@ cmd> pod install
 
 
 [DOT SDK 다운로드 받기](https://github.com/WisetrackerTechteam/release_sdk_v2_ios.git)
+
+
+##### <a id="DOT_REQUIREMENT"></a> - SDK 요구사항
+iOS 9.3 이상
 
 ##### <a id="DOT_infoplist"></a> - SDK 세팅
 XCode 프로젝트의 info.plist 파일에 제공받은 App Analytics Key 정보를 추가합니다.
