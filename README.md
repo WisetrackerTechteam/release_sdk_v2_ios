@@ -95,11 +95,7 @@ XCode 프로젝트의 AppDelegate 가 정의된 클래스의 **didFinishLaunchin
 ```objective-c
 #import <DOT/DOT.h>
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-<<<<<<< HEAD
     [DOT initialization:launchOptions application:application];
-=======
-    [DOT initialization:launchOptions];
->>>>>>> 3c5024c1bef04f051bc8de1f7dbb5e94656de7ba
 }
 ```
 
@@ -108,11 +104,7 @@ XCode 프로젝트의 AppDelegate 가 정의된 클래스의 **didFinishLaunchin
 ```Swift
 import DOT
 func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
-<<<<<<< HEAD
     DOT.initialization(launchOptions, application: application)
-=======
-    DOT.initialization(launchOptions)
->>>>>>> 3c5024c1bef04f051bc8de1f7dbb5e94656de7ba
 }
 ```
 
