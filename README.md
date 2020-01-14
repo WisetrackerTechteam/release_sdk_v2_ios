@@ -28,17 +28,11 @@
 ### <a id="DOT_INSTALL"></a> SDK 다운로드 및 설치
 
 ##### <a id="DOT_SDK_DOWNLOAD"></a> - SDK 다운로드
-- XCode CocoaPod 환경에서 SDK 다운로드 방법
+- XCode CocoaPad 환경에서 SDK 다운로드 방법
 XCode 프로젝트 파일중 Podfile 파일에 다음과 같이 SDK를 추가합니다.
 
 ```
-pod 'DOT'
-```
-
-기존에 SDK를 한번 설치한 경우에는 설치할SDK 버전을 표시해야 하는 경우도 있습니다. 아래와 같이 설치할 SDK버전을 명시적으로 표시하면 됩니다.
-
-```
-pod 'DOT', '~> 1.0.3'
+pod 'DOT' ~> 'x.x.x'
 ```
 
 Podfile 에 해당라인을 추가한 후 Terminal 프로그램을 실행하여 다음의 명령을 수행합니다.
@@ -46,7 +40,7 @@ Podfile 에 해당라인을 추가한 후 Terminal 프로그램을 실행하여 
 cmd> pod install
 ```
 
-만약 Cocoapod 환경의 프로젝트가 아닌 경우에는, 아래의 Github 링크에서 SDK Library 파일을 다운로드 가능합니다.
+만약 Cocoapad 환경의 프로젝트가 아닌 경우에는, 아래의 Github 링크에서 SDK Library 파일을 다운로드 가능합니다.
 다운로드한 Framework 파일을 XCode 프로젝트에서 참조 가능하도록 설정 하시기 바랍니다.
 
 
@@ -101,7 +95,7 @@ XCode 프로젝트의 AppDelegate 가 정의된 클래스의 **didFinishLaunchin
 ```objective-c
 #import <DOT/DOT.h>
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    [DOT initialization];
+    [DOT initialization:launchOptions application:application];
 }
 ```
 
@@ -110,7 +104,7 @@ XCode 프로젝트의 AppDelegate 가 정의된 클래스의 **didFinishLaunchin
 ```Swift
 import DOT
 func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
-    DOT.initialization()
+    DOT.initialization(launchOptions, application: application)
 }
 ```
 
@@ -1174,6 +1168,6 @@ DOT.setPurchase(
     })
 )
 ```
-
+.
 
 	

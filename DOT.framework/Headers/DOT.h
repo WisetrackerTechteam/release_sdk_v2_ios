@@ -33,7 +33,7 @@ FOUNDATION_EXPORT const unsigned char DOTVersionString[];
 @property (class) KeyConstant *Key;
 
 //SDK init함수
-+ (void)initialization:(NSDictionary *)launchOptions;
++ (void)initialization:(NSDictionary *)launchOptions application:(UIApplication *)application;
 
 //native 사용함수
 + (void)setUser:(User *)user;
@@ -50,7 +50,7 @@ FOUNDATION_EXPORT const unsigned char DOTVersionString[];
 + (void)enterBackground;
 + (void)setPushId:(NSString *)pushId;
 + (void)setPushToken:(NSString *)deviceToken;
-+ (void)setPushClick:(NSDictionary *)userInfo;
++ (void)setPushClick:(NSDictionary *)userInfo application:(UIApplication *)application;
 
 //facebook Referrer체크
 + (void)setFacebookReferrer:(NSString *)fbReferrer;
