@@ -32,7 +32,7 @@
 XCode 프로젝트 파일중 Podfile 파일에 다음과 같이 SDK를 추가합니다.
 
 ```
-pod 'DOT' ~> 'x.x.x'
+pod 'DOT', '~> x.x.x'
 ```
 
 Podfile 에 해당라인을 추가한 후 Terminal 프로그램을 실행하여 다음의 명령을 수행합니다.
